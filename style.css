@@ -1,18 +1,13 @@
-/* @media only screen and (max-width: 600px) { STYLES PARA TELAS MENORES QUE 600px DE LARGURA (Mobile devices) */
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-    /* CÓDIGO CSS ----> DICA: CRIAR O SITE PRIMEIRO PARA MOBILE */ 
-
-    /* USAR DISPLAY: FLEX / DISPLAY: GRID, JUSTIFY-CONTENT: SPACE-BETWEEN, FLEX: 1 */
-    /* GRID-TEMPLATE-COLUMNS: REPEAT(AUTO-FILL, MINMAX(250PX, 1FR); */
-    /* Set the max-width property to ensure images scale appropriately "max-width: 100% / height: auto; */
-    /* <video width="100%" height="auto" controls> <source src="your-video.mp4" type="video/mp4"> Your browser does not support the video tag. </video>*/
-    /* Use relative units like em or rem for font sizes to ensure text scales appropriately */
-    /* 1rem = Relative to 1x base font size / 2em = Twice the base font-size / Evitar usar font em pixels */
-
-/* }
-
-@media only screen and (min-width: 601px) { STYLES PARA TELAS COM 601px DE LARGURA OU MENORES (Tablets e Desktops)
-
-    CÓDIGO CSS
-
-} */
+.custom-logo{
+  height: 6vh;
+}
