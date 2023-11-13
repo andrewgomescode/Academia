@@ -11,3 +11,7 @@
 .custom-logo{
   height: 6vh;
 }
+
+html{
+  scroll-behavior:smooth;
+}

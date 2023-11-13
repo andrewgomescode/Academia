@@ -18,25 +18,23 @@
     <!-- <meta property="fb:app_id" content="your_app_id" />
     <meta name="twitter:site" content="@website-username"> -->
     <title>Evolve Fitness</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <!-- JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-collapse navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img class="custom-logo" src="images/logo.png" alt="logo" /> Evolve
@@ -69,64 +67,68 @@
 
     <!-- INICIO DO CARROSEL -->
 
-    <header id="Home">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" style="
+    <header>
+        <a id="Home">
+        </a>
+        <div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="
               background-image: url('images/qualoseuobjetivo.jpg');">
-                    <div class="carousel-caption">
-                        <h5>Label do Primeiro Slide</h5>
-                        <p>
-                            Descrição representativa do primeiro slide.
-                        </p>
+                        <div class="carousel-caption">
+                            <h5>Label do Primeiro Slide</h5>
+                            <p>
+                                Descrição representativa do primeiro slide.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item"
-                    style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080');">
-                    <div class="carousel-caption">
-                        <h5>Label do Segundo Slide</h5>
-                        <p>
-                            Descrição representativa do segundo slide.
-                        </p>
+                    <div class="carousel-item"
+                        style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080');">
+                        <div class="carousel-caption">
+                            <h5>Label do Segundo Slide</h5>
+                            <p>
+                                Descrição representativa do segundo slide.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item" style="
+                    <div class="carousel-item" style="
               background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080');">
-                    <div class="carousel-caption">
-                        <h5>Label do Terceiro Slide</h5>
-                        <p>
-                            Descrição representativa do terceiro slide.
-                        </p>
+                        <div class="carousel-caption">
+                            <h5>Label do Terceiro Slide</h5>
+                            <p>
+                                Descrição representativa do terceiro slide.
+                            </p>
+                        </div>
                     </div>
+
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <a id="Preços"></a>
         </div>
     </header>
-
     <!-- FIM DO CARROSEL -->
 
-    <hr class="featurette-divider" id="Preços">
+    <hr class="featurette-divider">
 
     <!-- PREÇOS -->
-
     <div class="container py-4">
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
             <h1 class="display-4 fw-normal text-body-emphasis">Preços</h1>
@@ -206,6 +208,7 @@
                 </div>
             </div>
         </main>
+        <a id="Sobre"></a>
     </div>
 
     <!-- FIM PREÇOS -->
@@ -236,6 +239,7 @@
                     data-src="holder.js/500x500/auto" alt="aula experimental"></img>
             </div>
         </div>
+        <a id="Contatos"></a>
     </div>
     <!-- FIM DO SOBRE -->
 
